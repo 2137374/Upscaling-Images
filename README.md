@@ -9,6 +9,7 @@ To use SR technique only [2, 3, 4] upscaling factors are allowed. For Bicubic an
 
 To run: 
 "python main.py input.jpg output.jpg --scale 2 --method bicubic --download-models"
+Another script "DPIHandling.py" is present if changing DPI is needed in order to print images.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for full details.

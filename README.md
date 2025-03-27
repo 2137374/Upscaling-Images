@@ -5,6 +5,11 @@ Techniques used are:
 - Bicubic
 - Lanczos
 
+To use SR technique only [2, 3, 4] upscaling factors are allowed. For Bicubic and Lanczos, any upscaling factor can be used.
+
+To run: 
+"python main.py input.jpg output.jpg --scale 2 --method bicubic --download-models"
+
 License
 This project is licensed under the MIT License. See the LICENSE file for full details.
 Copyright (c) [Year] [Your Name]
